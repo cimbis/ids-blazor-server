@@ -1,0 +1,17 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Clean Blazor</h1>
+
+<button @onclick="Clicker" class="if button">
+    ClickMe
+</button>
+
+@code 
+{
+    private void Clicker()
+    {
+        Console.WriteLine("Clicker");
+    }
+}
